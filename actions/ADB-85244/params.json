@@ -1,0 +1,24 @@
+{
+    "category": "data (things)",
+    "display": "Kendo Grid - Export Page",
+    "fields": {
+        "ACg": {
+            "caption": "Kendo Grid ID",
+            "default_val": "Grid_1",
+            "editor": "DynamicValue",
+            "name": "kendo_grid_id",
+            "optional": false,
+            "rank": 0,
+            "value": "text"
+        },
+        "ADC": {
+            "caption": "Export Page Name",
+            "default_val": "test.pdf",
+            "editor": "DynamicValue",
+            "name": "export_page_name",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "containers"
+    },
+    "demo_page": "https://testnew111.bubbleapps.io/version-test/browserlocal",
+    "description": "Fastest Grid with Export option.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1567591728274x791460615083738000/kendo-logo.png",
+    "license": "open_source",
+    "link": "",
+    "name": "Kendo Grid",
+    "plugin_instructions": "Use this Kendo Grid to load large data in the table."
+}

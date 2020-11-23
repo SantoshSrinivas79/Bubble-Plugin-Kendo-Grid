@@ -1,0 +1,15 @@
+{
+    "category": "data (things)",
+    "display": "Kendo Grid - Export Excel",
+    "fields": {
+        "ACd": {
+            "caption": "Kendo Grid ID",
+            "default_val": "Grid_1",
+            "editor": "DynamicValue",
+            "name": "kendo_grid_id",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

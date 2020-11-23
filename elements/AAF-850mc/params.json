@@ -1,0 +1,726 @@
+{
+    "add_hover_pressed": false,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 100
+    },
+    "display": "Kendo Grid",
+    "fields": {
+        "AAG": {
+            "caption": "type of Content",
+            "editor": "custom_type",
+            "name": "type_of_content",
+            "rank": 0
+        },
+        "AAH": {
+            "caption": "data source",
+            "doc": "",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "data_source",
+            "rank": 1,
+            "value": "custom_data_AAG"
+        },
+        "AAu": {
+            "caption": "--- Col 1 ----",
+            "editor": "Label",
+            "name": "2",
+            "rank": 19
+        },
+        "AAv": {
+            "caption": "Field 1 Label",
+            "editor": "DynamicValue",
+            "name": "field_0_label",
+            "optional": true,
+            "rank": 21,
+            "value": "text"
+        },
+        "AAw": {
+            "caption": "Field 1",
+            "editor": "custom_field_AAG",
+            "name": "field_0",
+            "optional": true,
+            "rank": 20
+        },
+        "AAx": {
+            "caption": "Field 1 Show",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "field_0_show",
+            "optional": true,
+            "options": "",
+            "rank": 22,
+            "value": "boolean"
+        },
+        "AAy": {
+            "caption": "--- Col 2 ----",
+            "editor": "Label",
+            "name": "3",
+            "rank": 23
+        },
+        "AAz": {
+            "caption": "Field 2",
+            "editor": "custom_field_AAG",
+            "name": "field_1",
+            "optional": true,
+            "rank": 24
+        },
+        "ABA": {
+            "caption": "Field 2 Label",
+            "editor": "DynamicValue",
+            "name": "field_1_label",
+            "optional": true,
+            "rank": 25,
+            "value": "text"
+        },
+        "ABB": {
+            "caption": "Field 2 Show",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "field_1_show",
+            "optional": true,
+            "rank": 26,
+            "value": "boolean"
+        },
+        "ABD": {
+            "caption": "Enable Landscape Mode",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "is_landscape",
+            "rank": 15
+        },
+        "ABE": {
+            "caption": "--- Export PDF Option ----",
+            "editor": "Label",
+            "name": "1",
+            "rank": 11
+        },
+        "ABF": {
+            "caption": "Enable PDF",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_pdf",
+            "rank": 13
+        },
+        "ABH": {
+            "caption": "Enable Excel",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "enable_csv",
+            "rank": 16
+        },
+        "ABI": {
+            "caption": "--- Col 3 ----",
+            "editor": "Label",
+            "name": "4",
+            "rank": 27
+        },
+        "ABJ": {
+            "caption": "--- Col 4 ----",
+            "editor": "Label",
+            "name": "5",
+            "rank": 31
+        },
+        "ABK": {
+            "caption": "--- Col 5 ----",
+            "editor": "Label",
+            "name": "6",
+            "rank": 35
+        },
+        "ABL": {
+            "caption": "--- Col 6 ----",
+            "editor": "Label",
+            "name": "7",
+            "rank": 39
+        },
+        "ABM": {
+            "caption": "--- Col 7 ----",
+            "editor": "Label",
+            "name": "8",
+            "rank": 43
+        },
+        "ABN": {
+            "caption": "--- Col 8 ----",
+            "editor": "Label",
+            "name": "9",
+            "rank": 47
+        },
+        "ABO": {
+            "caption": "--- Col 9 ----",
+            "editor": "Label",
+            "name": "10",
+            "rank": 51
+        },
+        "ABP": {
+            "caption": "--- Col 10 ----",
+            "editor": "Label",
+            "name": "11",
+            "rank": 55
+        },
+        "ABQ": {
+            "caption": "--- Col 11 ----",
+            "editor": "Label",
+            "name": "12",
+            "rank": 59
+        },
+        "ABR": {
+            "caption": "--- Col 12 ----",
+            "editor": "Label",
+            "name": "13",
+            "rank": 63
+        },
+        "ABS": {
+            "caption": "--- Col 13 ----",
+            "editor": "Label",
+            "name": "14",
+            "rank": 67
+        },
+        "ABT": {
+            "caption": "--- Col 14 ----",
+            "editor": "Label",
+            "name": "15",
+            "rank": 71
+        },
+        "ABU": {
+            "caption": "--- Col 15 ----",
+            "editor": "Label",
+            "name": "16",
+            "rank": 75
+        },
+        "ABW": {
+            "caption": "Field 3",
+            "editor": "custom_field_AAG",
+            "name": "field_3",
+            "optional": true,
+            "rank": 28
+        },
+        "ABX": {
+            "caption": "Field 4",
+            "editor": "custom_field_AAG",
+            "name": "field_4",
+            "optional": true,
+            "rank": 32
+        },
+        "ABY": {
+            "caption": "Field 5",
+            "editor": "custom_field_AAG",
+            "name": "field_5",
+            "optional": true,
+            "rank": 36
+        },
+        "ABZ": {
+            "caption": "Field 6",
+            "editor": "custom_field_AAG",
+            "name": "field_6",
+            "optional": true,
+            "rank": 40
+        },
+        "ABa": {
+            "caption": "Field 7",
+            "editor": "custom_field_AAG",
+            "name": "field_7",
+            "optional": true,
+            "rank": 44
+        },
+        "ABb": {
+            "caption": "Field 8",
+            "editor": "custom_field_AAG",
+            "name": "field_8",
+            "optional": true,
+            "rank": 48
+        },
+        "ABc": {
+            "caption": "Field 9",
+            "editor": "custom_field_AAG",
+            "name": "field_9",
+            "optional": true,
+            "rank": 52
+        },
+        "ABd": {
+            "caption": "Field 10",
+            "editor": "custom_field_AAG",
+            "name": "field_10",
+            "optional": true,
+            "rank": 56
+        },
+        "ABe": {
+            "caption": "Field 11",
+            "editor": "custom_field_AAG",
+            "name": "field_11",
+            "optional": true,
+            "rank": 60
+        },
+        "ABf": {
+            "caption": "Field 12",
+            "editor": "custom_field_AAG",
+            "name": "field_12",
+            "optional": true,
+            "rank": 64
+        },
+        "ABg": {
+            "caption": "Field 13",
+            "editor": "custom_field_AAG",
+            "name": "field_13",
+            "optional": true,
+            "rank": 68
+        },
+        "ABh": {
+            "caption": "Field 14",
+            "editor": "custom_field_AAG",
+            "name": "field_14",
+            "optional": true,
+            "rank": 72
+        },
+        "ABi": {
+            "caption": "Field 15",
+            "editor": "custom_field_AAG",
+            "name": "field_15",
+            "optional": true,
+            "rank": 76
+        },
+        "ABj": {
+            "caption": "Field 3 Label",
+            "editor": "DynamicValue",
+            "name": "field_3_label",
+            "optional": true,
+            "rank": 29,
+            "value": "text"
+        },
+        "ABk": {
+            "caption": "Field 4 Label",
+            "editor": "DynamicValue",
+            "name": "field_4_label",
+            "optional": true,
+            "rank": 33,
+            "value": "text"
+        },
+        "ABl": {
+            "caption": "Field 5 Label",
+            "editor": "DynamicValue",
+            "name": "field_5_label",
+            "optional": true,
+            "rank": 37,
+            "value": "text"
+        },
+        "ABm": {
+            "caption": "Field 6 Label",
+            "editor": "DynamicValue",
+            "name": "field_6_label",
+            "optional": true,
+            "rank": 41,
+            "value": "text"
+        },
+        "ABn": {
+            "caption": "Field 7 Label",
+            "editor": "DynamicValue",
+            "name": "field_7_label",
+            "optional": true,
+            "rank": 45,
+            "value": "text"
+        },
+        "ABo": {
+            "caption": "Field 8 Label",
+            "editor": "DynamicValue",
+            "name": "field_8_label",
+            "optional": true,
+            "rank": 49,
+            "value": "text"
+        },
+        "ABp": {
+            "caption": "Field 9 Label",
+            "editor": "DynamicValue",
+            "name": "field_9_label",
+            "optional": true,
+            "rank": 53,
+            "value": "text"
+        },
+        "ABq": {
+            "caption": "Field 10 Label",
+            "editor": "DynamicValue",
+            "name": "field_10_label",
+            "optional": true,
+            "rank": 57,
+            "value": "text"
+        },
+        "ABr": {
+            "caption": "Field 11 Label",
+            "editor": "DynamicValue",
+            "name": "field_11_label",
+            "optional": true,
+            "rank": 61,
+            "value": "text"
+        },
+        "ABs": {
+            "caption": "Field 12 Label",
+            "editor": "DynamicValue",
+            "name": "field_12_label",
+            "optional": true,
+            "rank": 65,
+            "value": "text"
+        },
+        "ABt": {
+            "caption": "Field 13 Label",
+            "editor": "DynamicValue",
+            "name": "field_13_label",
+            "optional": true,
+            "rank": 69,
+            "value": "text"
+        },
+        "ABu": {
+            "caption": "Field 14 Label",
+            "editor": "DynamicValue",
+            "name": "field_14_label",
+            "optional": true,
+            "rank": 73,
+            "value": "text"
+        },
+        "ABv": {
+            "caption": "Field 15 Label",
+            "editor": "DynamicValue",
+            "name": "field_15_label",
+            "optional": true,
+            "rank": 77,
+            "value": "text"
+        },
+        "ABw": {
+            "caption": "Field 3 Show",
+            "editor": "DynamicValue",
+            "name": "field_3_show",
+            "optional": true,
+            "rank": 30,
+            "value": "boolean"
+        },
+        "ABx": {
+            "caption": "Field 4 Show",
+            "editor": "DynamicValue",
+            "name": "field_4_show",
+            "optional": true,
+            "options": "",
+            "rank": 34,
+            "value": "boolean"
+        },
+        "ABy": {
+            "caption": "Field 5 Show",
+            "editor": "DynamicValue",
+            "name": "field_5_show",
+            "optional": true,
+            "rank": 38,
+            "value": "boolean"
+        },
+        "ABz": {
+            "caption": "Field 6 Show",
+            "editor": "DynamicValue",
+            "name": "field_6_show",
+            "optional": true,
+            "rank": 42,
+            "value": "boolean"
+        },
+        "ACA": {
+            "caption": "Field 7 Show",
+            "editor": "DynamicValue",
+            "name": "field_7_show",
+            "optional": true,
+            "rank": 46,
+            "value": "boolean"
+        },
+        "ACB": {
+            "caption": "Field 8 Show",
+            "editor": "DynamicValue",
+            "name": "field_8_show",
+            "optional": true,
+            "rank": 50,
+            "value": "boolean"
+        },
+        "ACC": {
+            "caption": "Field 9 Show",
+            "editor": "DynamicValue",
+            "name": "field_9_show",
+            "optional": true,
+            "rank": 54,
+            "value": "boolean"
+        },
+        "ACD": {
+            "caption": "Field 10 Show",
+            "editor": "DynamicValue",
+            "name": "field_10_show",
+            "optional": true,
+            "rank": 58,
+            "value": "boolean"
+        },
+        "ACE": {
+            "caption": "Field 11 Show",
+            "editor": "DynamicValue",
+            "name": "field_11_show",
+            "optional": true,
+            "rank": 62,
+            "value": "boolean"
+        },
+        "ACF": {
+            "caption": "Field 12 Show",
+            "editor": "DynamicValue",
+            "name": "field_12_show",
+            "optional": true,
+            "rank": 66,
+            "value": "boolean"
+        },
+        "ACG": {
+            "caption": "Field 13 Show",
+            "editor": "DynamicValue",
+            "name": "field_13_show",
+            "optional": true,
+            "rank": 70,
+            "value": "boolean"
+        },
+        "ACH": {
+            "caption": "Field 14 Show",
+            "editor": "DynamicValue",
+            "name": "field_14_show",
+            "optional": true,
+            "rank": 74,
+            "value": "boolean"
+        },
+        "ACI": {
+            "caption": "Field 15 Show",
+            "editor": "DynamicValue",
+            "name": "field_15_show",
+            "optional": true,
+            "rank": 78,
+            "value": "boolean"
+        },
+        "ACK": {
+            "caption": "Element Id",
+            "default_val": "Grid_1",
+            "editor": "DynamicValue",
+            "name": "element_id",
+            "rank": 2,
+            "value": "text"
+        },
+        "ACL": {
+            "caption": "Page Title",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "page_title",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "ACN": {
+            "caption": "Full Page",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "full_page",
+            "rank": 4,
+            "value": "boolean"
+        },
+        "ACO": {
+            "caption": "Set Width",
+            "default_val": 500,
+            "doc": "This was ignored once you set Full page is yes.",
+            "editor": "DynamicValue",
+            "name": "set_width",
+            "rank": 5,
+            "value": "number"
+        },
+        "ACP": {
+            "caption": "Set Height",
+            "default_val": 300,
+            "doc": "This was ignored once you set Full page is yes.",
+            "editor": "DynamicValue",
+            "name": "set_height",
+            "rank": 6,
+            "value": "number"
+        },
+        "ACR": {
+            "caption": "Export Title",
+            "default_val": "Report",
+            "editor": "DynamicValue",
+            "name": "export_title",
+            "optional": true,
+            "rank": 12,
+            "value": "text"
+        },
+        "ACS": {
+            "caption": "Full Column Width",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "full_width",
+            "optional": true,
+            "rank": 7,
+            "value": "boolean"
+        },
+        "ACT": {
+            "caption": "Custom Style",
+            "default_val": "<style>     </style>",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "custom_style",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        },
+        "ACZ": {
+            "caption": "Show list as columns",
+            "doc": "This should be list of text field. show 0th separator content into column and next to be value to the datavalues.If you want to apply color to the datavalue then use apply color and assign values to the text. EG : ColumnName###DateValue###Color",
+            "editor": "custom_field_AAG",
+            "name": "show_list_as_columns",
+            "optional": true,
+            "rank": 79
+        },
+        "ACa": {
+            "caption": "Show list as columns Value Separator",
+            "default_val": "###",
+            "editor": "DynamicValue",
+            "name": "show_list_as_columns_value_separator",
+            "optional": true,
+            "rank": 82,
+            "value": "text"
+        },
+        "ACb": {
+            "caption": "Add color to the above value",
+            "default_val": "RED####fff",
+            "doc": "Example : RED####FF0000,GREEN####008000,YELLOW####FFFF00",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "add_color_to_the_above_value",
+            "optional": true,
+            "rank": 83,
+            "value": "text"
+        },
+        "ACm": {
+            "caption": "PDF Page Size",
+            "default_val": "A4",
+            "editor": "Dropdown",
+            "name": "pdf_page_size",
+            "options": "auto,A0,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,B0,B1,B2,B3,B4,B5,B6,B7,B8,B9,B10,C0,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,Executive,Folio,Legal,Letter,Tabloid",
+            "rank": 14
+        },
+        "ACn": {
+            "caption": "Show Key Points About Above Color",
+            "default_val": false,
+            "doc": "This will show on Excel",
+            "editor": "Checkbox",
+            "name": "show_key_points_about_above_color",
+            "rank": 84
+        },
+        "ACo": {
+            "caption": "Key Points",
+            "doc": "Example : text####fff###Pass,text####fff###Fail",
+            "editor": "DynamicValue",
+            "name": "key_points",
+            "optional": true,
+            "rank": 85,
+            "value": "text"
+        },
+        "ACp": {
+            "caption": "Export Excel - Append Title",
+            "doc": "IF it is not empty then add at 1st column index",
+            "editor": "DynamicValue",
+            "name": "export_excel_append_title",
+            "optional": true,
+            "rank": 17,
+            "value": "text"
+        },
+        "ACq": {
+            "caption": "Export Excel - Generated Date",
+            "doc": "IF it is not empty then add at last column index",
+            "editor": "DynamicValue",
+            "name": "export_excel_generated_date",
+            "optional": true,
+            "rank": 18,
+            "value": "text"
+        },
+        "ACs": {
+            "caption": "Apply as Short code column name",
+            "default_val": false,
+            "doc": "Apply Short Code for the Above Column Names",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "apply_as_short_code_column_name",
+            "optional": true,
+            "rank": 80,
+            "value": "boolean"
+        },
+        "ACu": {
+            "caption": "Prefix - Short Code Column name ",
+            "default_val": "Test",
+            "editor": "DynamicValue",
+            "name": "prefix_short_code_column_name",
+            "optional": true,
+            "rank": 81,
+            "value": "text"
+        },
+        "ACy": {
+            "caption": "Apply Paging",
+            "default_val": false,
+            "doc": "If you want paging then, enable this.",
+            "editor": "DynamicValue",
+            "name": "apply_paging",
+            "optional": true,
+            "rank": 8,
+            "value": "boolean"
+        },
+        "ACz": {
+            "caption": "Items per page",
+            "default_val": 10,
+            "doc": "Items per page to show paging",
+            "editor": "Dropdown",
+            "is_list": false,
+            "name": "items_per_page",
+            "optional": false,
+            "options": "5,10,15,25,50,100,200",
+            "rank": 9,
+            "value": "number"
+        },
+        "ADD": {
+            "caption": "Title and keypoints fontsize to Excel",
+            "default_val": 11,
+            "editor": "DynamicValue",
+            "name": "title_and_keypoints_fontsize",
+            "rank": 87,
+            "value": "number"
+        },
+        "ADE": {
+            "caption": "Change title & keypoints fontsize to Excel",
+            "default_val": false,
+            "doc": "If this is yes then below value will be updated to the excel form",
+            "editor": "Checkbox",
+            "in_style": true,
+            "name": "change_title_and_keypoints_fontsize",
+            "options": "",
+            "rank": 86
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-ios-list-outline",
+    "property_applications": {
+        "Background": false,
+        "Border": false,
+        "BoxShadow": false,
+        "Font": false,
+        "MinWidth": false,
+        "Padding": false,
+        "resizable": false
+    },
+    "states": {
+        "ACr": {
+            "caption": "total_columns",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "total_columns",
+            "value": "number"
+        },
+        "ACt": {
+            "caption": "short_column_name",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "short_column_name",
+            "value": "text"
+        }
+    },
+    "support_autobinding": false
+}
